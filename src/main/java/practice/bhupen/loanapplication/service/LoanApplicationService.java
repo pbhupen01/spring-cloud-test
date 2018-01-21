@@ -1,4 +1,4 @@
-package practice.bhupen.springcloudcontract.service;
+package practice.bhupen.loanapplication.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.client.RestTemplateBuilder;
@@ -9,7 +9,7 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import practice.bhupen.springcloudcontract.model.*;
+import practice.bhupen.loanapplication.model.*;
 
 @Service
 public class LoanApplicationService {

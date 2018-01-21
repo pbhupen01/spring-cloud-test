@@ -1,4 +1,4 @@
-package practice.bhupen.springcloudcontract.model;
+package practice.bhupen.loanapplication.model;
 
 public class LoanApplicationResult {
 

@@ -1,4 +1,4 @@
-package practice.bhupen.springcloudcontract;
+package practice.bhupen.loanapplication;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -10,11 +10,11 @@ import org.springframework.cloud.contract.stubrunner.spring.StubRunnerProperties
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import practice.bhupen.springcloudcontract.model.Client;
-import practice.bhupen.springcloudcontract.model.LoanApplication;
-import practice.bhupen.springcloudcontract.model.LoanApplicationResult;
-import practice.bhupen.springcloudcontract.model.LoanApplicationStatus;
-import practice.bhupen.springcloudcontract.service.LoanApplicationService;
+import practice.bhupen.loanapplication.model.Client;
+import practice.bhupen.loanapplication.model.LoanApplication;
+import practice.bhupen.loanapplication.model.LoanApplicationResult;
+import practice.bhupen.loanapplication.model.LoanApplicationStatus;
+import practice.bhupen.loanapplication.service.LoanApplicationService;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
